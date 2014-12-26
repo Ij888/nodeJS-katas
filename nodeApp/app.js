@@ -1,1 +1,7 @@
-//entry point of the app
+//entry point of the appliation
+
+var http = require('http');
+http.createServer(function (req, res){
+    
+
+})
