@@ -1,7 +1,11 @@
 //entry point of the appliation
 
 var http = require('http');
-http.createServer(function (req, res){
-    
+var mappings = require('./mappings');
 
-})
+http.createServer(function (req, res){
+    res.write('BufferStreamk177');
+    res.end();    
+});
+
+server.listen(3091);
